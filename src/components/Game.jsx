@@ -15,16 +15,18 @@ const Game = (props) => {
     }
 
     /* Erases the record of cards that have been clicked */
-    const eraseClickedCards = () => {setClickedCards([])}
+    const eraseClickedCards = () => { setClickedCards([]) }
 
-    /* Defines the cards */
     let charMap = characters.map((card) => {
         return (
             <Card
                 key={card.id}
+                id={card.id}
                 name={card.name}
                 title={card.title}
                 img={card.img}
+                clickedCards = {clickedCards}
+                eraseClickedCards={eraseClickedCards}
                 updateClickedCards={updateClickedCards}
                 updateScore={props.updateScore}
                 setGameOver={props.setGameOver}
@@ -32,19 +34,12 @@ const Game = (props) => {
         )
     })
 
-    /* Fisher-Yates Sorting Algorithm */
-    const shuffle = (array) => {
-        for (let i = array.length - 1; i > 0; i--) { 
-            const j = Math.floor(Math.random() * (i + 1))
-            [array[i], array[j]] = [array[j], array[i]]
-        }
-
-        return array
-    } 
-
     /* Shuffles the card map */
-    const shuffleCards = () => { charMap = shuffle(charMap)}
-    
+    for (let i = (characters.length - 1); i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1))
+        characters[i] = characters.splice(j, 1, characters[i])[0]
+    }
+
     return (
         <div className='game-div'>
             {charMap}
