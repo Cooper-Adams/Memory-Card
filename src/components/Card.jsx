@@ -1,16 +1,17 @@
 import React, { useState } from 'react'
 
 const Card = (props) => {
-    const [wasClicked, setWasClicked] = useState(false)
-
     const handleClick = () => {
-        if (wasClicked) {
-            props.setGameOver()
-        } else {
-            setWasClicked(true)
-            props.updateClickedCards({name: props.name, id: props.id})
-            props.updateScore()
+        for (let i = 0; i < props.clickedCards.length; ++i) {
+            if (props.clickedCards[i].id === props.id) {
+                props.eraseClickedCards()
+                props.setGameOver()
+                return
+            }
         }
+        
+        props.updateClickedCards({id: props.id})
+        props.updateScore()
     }
 
     return (
