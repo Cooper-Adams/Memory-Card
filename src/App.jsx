@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import './styles/App.css'
 import Header from './components/header'
-import Game from './components/Game'
+import Game from './components/game'
 import GameOver from './components/GameOver'
 import GameWin from './components/GameWin'
 
@@ -20,7 +21,11 @@ const App = (props) => {
     }
 
     /* Ends the game state */
-    const gameFinished = () => { setGameOver(true) }
+    const gameFinished = () => { 
+        setGameOver(true)
+        setScore(0)
+        setGameOver(false)
+    }
 
     /* Resets the game, but not the high score */
     const resetGame = () => {
@@ -52,9 +57,9 @@ const App = (props) => {
                 setGameOver={gameFinished}
             />
 
-            {gameOver && <GameOver resetGame={resetGame} highScore={highScore} />}
-
             {highScore === 20 && <GameWin resetGame={resetGameWin}/>}
+
+            {gameOver && <GameOver resetGame={resetGame} highScore={highScore} />}
         </div>
     )
 }
