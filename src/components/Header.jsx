@@ -3,10 +3,10 @@ import React from 'react'
 const Header = (props) => {
     return (
         <header className='header'>
-            <h1 className='h-title'>Memory Cards</h1>
+            <h2 className='h-title'>Memory Cards</h2>
             <div className='h-score-container'>
-                <span className='h-score'>Score: {props.score}</span>
-                <span className='h-highscore'>High Score: {props.highScore}</span>
+                <h2 className='h-score'>Score: {props.score}</h2>
+                <h2 className='h-highscore'>High Score: {props.highScore}</h2>
             </div>
         </header>
     )
