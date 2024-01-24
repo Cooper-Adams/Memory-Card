@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Cabin Condensed", sans-serif;
 }
 
 /* Header Styling */
@@ -17,11 +20,9 @@
 
 /* Main Game Container */
 .game-div {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: .1rem;
-    grid-row-gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
