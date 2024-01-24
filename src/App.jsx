@@ -24,13 +24,12 @@ const App = (props) => {
     const gameFinished = () => { 
         setGameOver(true)
         setScore(0)
-        setGameOver(false)
     }
 
     /* Resets the game, but not the high score */
     const resetGame = () => {
-        setGameOver(false)
         setScore(0)
+        setGameOver(false)
     }
 
     /* Resets the game completely */
@@ -52,12 +51,14 @@ const App = (props) => {
                 highScore={highScore}
             />
             
-            <Game
-                updateScore={updateScore}
-                setGameOver={gameFinished}
-            />
+            {!gameOver && highScore < 51 && (
+                <Game
+                    updateScore={updateScore}
+                    setGameOver={gameFinished}
+                />
+            )}
 
-            {highScore === 20 && <GameWin resetGame={resetGameWin}/>}
+            {highScore === 51 && <GameWin resetGame={resetGameWin}/>}
 
             {gameOver && <GameOver resetGame={resetGame} highScore={highScore} />}
         </div>
