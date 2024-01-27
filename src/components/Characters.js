@@ -141,7 +141,7 @@ const Characters = [
             name: 'Majin Vegeta',
             title: 'A Lonely Battle',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1023970/1023970.png',
-            type: 'eint',
+            type: 'int',
             rarity: 'ssr'
         },
         {
@@ -159,7 +159,7 @@ const Characters = [
             name: 'Super Saiyan God Goku & Super Saiyan God Vegeta',
             title: 'Domain of Supremacy',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1022370/1022370.png',
-            type: 'teq',
+            type: 'steq',
             rarity: 'ur'
         },
         {
@@ -167,7 +167,7 @@ const Characters = [
             name: 'Ultimate Gohan & Piccolo',
             title: 'Bond Forged by Master and Disciple',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1021350/1021350.png',
-            type: 'teq',
+            type: 'steq',
             rarity: 'ur'
         },
         {
@@ -175,7 +175,7 @@ const Characters = [
             name: 'Super Saiyan Trunks (Future) & Mai (Future)',
             title: 'Human Pride',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1019280/1019280.png',
-            type: 'agl',
+            type: 'sagl',
             rarity: 'ur'
         },
         {
@@ -183,7 +183,7 @@ const Characters = [
             name: 'Super Saiyan 3 Gotenks & Piccolo',
             title: 'Unusual Pairing',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1025820/1025820.png',
-            type: 'agl',
+            type: 'sagl',
             rarity: 'ur'
         },
         {
@@ -191,7 +191,7 @@ const Characters = [
             name: 'Super Gogeta',
             title: 'Outshining Darkness',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1010850/1010850.png',
-            type: 'int',
+            type: 'sint',
             rarity: 'ur'
         },
         {
@@ -199,7 +199,7 @@ const Characters = [
             name: 'Super Vegito',
             title: 'Unparalleled Golden Ki',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1006790/1006790.png',
-            type: 'agl',
+            type: 'sagl',
             rarity: 'ur'
         },
     ],
@@ -209,7 +209,7 @@ const Characters = [
             name: 'Super Saiyan God SS Goku',
             title: 'Final Super Power',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1018540/1018540.png',
-            type: 'str',
+            type: 'sstr',
             rarity: 'ur'
         },
         {
@@ -217,7 +217,7 @@ const Characters = [
             name: 'Ultimate Gohan',
             title: 'Clashing Justice',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1025550/1025550.png',
-            type: 'phy',
+            type: 'sphy',
             rarity: 'ur'
         },
         {
@@ -225,7 +225,7 @@ const Characters = [
             name: 'Super Saiyan God SS Vegeta & Super Saiyan Trunks (Future)',
             title: 'Cooperation Between the Enraged Father and Son',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1024540/1024540.png',
-            type: 'int',
+            type: 'sint',
             rarity: 'ur'
         },
         {
@@ -233,7 +233,7 @@ const Characters = [
             name: 'Piccolo (Power Awakening)',
             title: 'Unprecedented Power-Up',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1025580/1025580.png',
-            type: 'teq',
+            type: 'steq',
             rarity: 'ur'
         },
         {
@@ -241,7 +241,7 @@ const Characters = [
             name: 'Super Saiyan God SS Gogeta',
             title: 'Transcendent Fusion',
             img: 'https://dokkaninfo.com/assets/japan/character/card/4015980/4015980.png',
-            type: 'agl',
+            type: 'sagl',
             rarity: 'ur'
         },
         {
@@ -249,7 +249,7 @@ const Characters = [
             name: 'Super Saiyan God SS Vegito',
             title: 'Strength Beyond Gods',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1012740/1012740.png',
-            type: 'teq',
+            type: 'steq',
             rarity: 'ur'
         },
     ],
@@ -259,7 +259,7 @@ const Characters = [
             name: 'Super Saiyan God SS Goku & Super Saiyan God SS Vegeta',
             title: 'Divine Warriors with Infinite Power',
             img: 'https://dokkaninfo.com/assets/japan/character/card/4022390/4022390.png',
-            type: 'teq',
+            type: 'steq',
             rarity: 'lr'
         },
         {
@@ -267,7 +267,7 @@ const Characters = [
             name: 'Ultimate Gohan',
             title: 'Awakened Super Hero',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1025560/1025560.png',
-            type: 'phy',
+            type: 'sphy',
             rarity: 'lr'
         },
         {
@@ -275,7 +275,7 @@ const Characters = [
             name: 'Super Saiyan Trunks (Future)',
             title: 'Hope at the End of a Deadly Showdown',
             img: 'https://dokkaninfo.com/assets/japan/character/card/4027300/4027300.png',
-            type: 'phy',
+            type: 'sphy',
             rarity: 'lr'
         },
         {
@@ -283,7 +283,7 @@ const Characters = [
             name: 'Orange Piccolo (Giant Form)',
             title: 'Exploding Latent Power',
             img: 'https://dokkaninfo.com/assets/japan/character/card/4025590/4025590.png',
-            type: 'teq',
+            type: 'steq',
             rarity: 'lr'
         },
         {
@@ -291,7 +291,7 @@ const Characters = [
             name: 'Super Saiyan God SS Gogeta',
             title: 'Ultimate and Supreme Fusion',
             img: 'https://dokkaninfo.com/assets/japan/character/card/4017970/4017970.png',
-            type: 'str',
+            type: 'sstr',
             rarity: 'lr'
         },
         {
@@ -299,7 +299,7 @@ const Characters = [
             name: 'Super Saiyan God SS Vegito',
             title: 'All-Out Final Battle',
             img: 'https://dokkaninfo.com/assets/japan/character/card/4027130/4027130.png',
-            type: 'agl',
+            type: 'sagl',
             rarity: 'lr'
         },
         {
@@ -307,7 +307,7 @@ const Characters = [
             name: 'Goku (Ultra Instinct -Sign-)',
             title: 'Sign of a Turnaround',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1019820/1019820.png',
-            type: 'str',
+            type: 'sstr',
             rarity: 'lr'
         }
     ],
@@ -317,7 +317,7 @@ const Characters = [
             name: 'Super Saiyan God SS Goku (Kaioken) & Super Saiyan God SS Evolved Vegeta',
             title: 'Beyond Boundless Power',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1019990/1019990.png',
-            type: 'phy',
+            type: 'sphy',
             rarity: 'lr'
         },
         {
@@ -325,7 +325,7 @@ const Characters = [
             name: 'Gohan (Teen) & Goten (Kid) & Trunks (Kid)',
             title: 'Dream-Packed Future',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1023890/1023890.png',
-            type: 'teq',
+            type: 'steq',
             rarity: 'lr'
         },
         {
@@ -333,7 +333,7 @@ const Characters = [
             name: 'Super Saiyan Goku & Super Saiyan Vegeta & Super Saiyan Trunks (Teen)',
             title: 'All-Out Ultimate Battle',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1028060/1028060.png',
-            type: 'int',
+            type: 'sint',
             rarity: 'lr'
         },
         {
@@ -341,7 +341,7 @@ const Characters = [
             name: 'Super Saiyan Goku',
             title: 'Earth-Shaking Immense Power',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1025870/1025870.png',
-            type: 'str',
+            type: 'sstr',
             rarity: 'lr'
         },
         {
@@ -349,7 +349,7 @@ const Characters = [
             name: 'Super Saiyan God SS Evolved Vegeta',
             title: 'True Warrior Race',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1020340/1020340.png',
-            type: 'int',
+            type: 'sint',
             rarity: 'lr'
         },
         {
@@ -357,7 +357,7 @@ const Characters = [
             name: 'Super Saiyan 4 Goku & Super Saiyan 4 Vegeta',
             title: 'Super Warriors with Ultimate Power',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1022420/1022420.png',
-            type: 'phy',
+            type: 'sphy',
             rarity: 'lr'
         },
         {
@@ -365,7 +365,7 @@ const Characters = [
             name: 'Goku (Ultra Instinct)',
             title: 'True Ultra Instinct',
             img: 'https://dokkaninfo.com/assets/japan/character/card/1020310/1020310.png',
-            type: 'agl',
+            type: 'sagl',
             rarity: 'lr'
         }
     ],
