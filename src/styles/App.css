@@ -6,6 +6,12 @@
     font-family: "Cabin Condensed", sans-serif;
 }
 
+.react-app {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
 /* Header Styling */
 .header {
     display: flex;
@@ -23,12 +29,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 3rem;
 }
 
 .card {
+    width: 20%;
+    position: relative;
+}
+
+.card-img {
     width: 100%;
 }
 
-.card img {
-    width: 100%;
+.card-rarity, .card-type, .card-name, .card-title {
+    position: absolute;
+}
+
+.card-type {
+    width: 10%;
+    top: 15%;
+    left: 2%;
+}
+
+.card-rarity {
+    width: 15%;
+}
+
+.card-name, .card-title {
+    transform: rotate(-90deg);
+    font-style: italic;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.card-name {
+    top: 15%;
+    right: 0;
 }
