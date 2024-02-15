@@ -184,7 +184,7 @@ const superbroly = [
             id: nanoid(),
             name: 'Super Saiyan Gogeta',
             title: 'Transcendent Fusion',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1018620/1018620.png',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1015970/1015970.png',
             type: 'sagl',
             rarity: 'ur'
         },
