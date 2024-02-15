@@ -40,7 +40,7 @@ const dbsaga = [
             id: nanoid(),
             name: 'Goku (Youth)',
             title: 'Encountering the Strongest Fighters',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1000270/1000270.png',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1027550/1027550.png',
             type: 'steq',
             rarity: 'ur'
         },
