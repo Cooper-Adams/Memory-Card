@@ -30,7 +30,7 @@ const pathtopower = [
             id: nanoid(),
             name: 'Staff Officer Black',
             title: 'Commander of the Red Ribbon Army',
-            img: 'https://static.wikia.nocookie.net/dbz-dokkanbattle/images/a/ab/Card_1025290_artwork.png/revision/latest?cb=20230103204929',
+            img: 'src/assets/staffofficerblack.png',
             type: 'int',
             rarity: 'ssr'
         }
