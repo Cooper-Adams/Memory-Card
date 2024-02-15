@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import Card from './Card'
 
-import characters from './Characters'
+import fullList from '../characters/_fulllist'
 
 const Game = (props) => {
     const [clickedCards, setClickedCards] = useState([])
@@ -17,7 +17,7 @@ const Game = (props) => {
     const increaseLevel = () => { setLevel(level + 1) }
 
     /* Grabs the next array of characters */
-    let splitCharacters = characters.map((arr) => arr.slice())
+    let splitCharacters = fullList.map((arr) => arr.slice())
 
     /* Shuffles the card map with the Fisher-Yates algo */
     for (let i = (splitCharacters[level].length - 1); i > 0; i--) {
@@ -47,11 +47,11 @@ const Game = (props) => {
 
     /* Use effect here to change the level when the score for that level has been maxed */
     useEffect(() => {
-        if (clickedCards.length == splitCharacters[level].length && level < 9) {
+        if (clickedCards.length == 4) {
             eraseClickedCards()
             increaseLevel()
         }
-    }, [clickedCards, level])
+    }, [clickedCards, level]) /* Don't think the effect is dependent on level anymore but it needs testing */
 
     return (
         <div className='game-div'>
