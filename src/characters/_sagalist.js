@@ -1,9 +1,9 @@
 const sagaList = [
     'Dragon Ball',
     'Dragon Ball: The Path to Power',
-    'Dragon Ball Z the Movie: Dead Zone',
+    'Dragon Ball Z: The Movie - Dead Zone',
     'Saiyan Saga',
-    "Dragon Ball Z the Movie: The World's Strongest",
+    "Dragon Ball Z: The Movie - The World's Strongest",
     'Dragon Ball Z: The Decisive Battle for the Whole Earth',
     'Dragon Ball Z: Super Saiyan Son Goku',
     'Planet Namek Saga',
