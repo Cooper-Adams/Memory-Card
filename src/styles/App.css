@@ -6,10 +6,36 @@
     font-family: "Cabin Condensed", sans-serif;
 }
 
+body {
+    background-color: #222;
+}
+
 .react-app {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+}
+
+/* Modal Styling */
+.mode-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mode-box {
+    display: flex;
+    gap: 3rem;
+}
+
+.modal-box {
+    width: 25%;
+}
+
+.modal-img {
+    width: 400px;
+    height: 600px;
 }
 
 /* Header Styling */
@@ -46,20 +72,31 @@
 }
 
 .card-type {
-    width: 10%;
-    top: 15%;
-    left: 2%;
+    width: 12%;
+    top: 13%;
+    left: 3%;
 }
 
 .card-rarity {
-    width: 15%;
+    width: 21%;
 }
 
 .card-name, .card-title {
     transform: rotate(-90deg);
     font-style: italic;
     color: white;
-    text-shadow: 1px 1px black;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.card-name {
+    font-size: 25px;
+}
+
+.card-title {
+    font-size: 18px;
 }
 
 .card-name {
