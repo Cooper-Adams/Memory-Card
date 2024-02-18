@@ -32,38 +32,40 @@ import futuresaga from './futuresaga'
 import tournamentofpower from './tournamentofpower'
 import superbroly from './superbroly'
 
-const fullList = dbsaga.concat(pathtopower, 
-    deadzone, 
-    saiyansaga, 
-    theworldsstrongest, 
-    thetreeofmight, 
-    lordslug, 
-    planetnameksaga, 
-    bardock, 
-    coolersrevenge, 
-    returnofcooler, 
-    androidsaga, 
-    superandroid13, 
-    historyoftrunks,
-    lssjbroly,
-    cellsaga,
-    trunksfuture,
-    exterminationplan,
-    bojackunbound,
-    otherworld,
-    greatsaiyaman,
-    brolysecondcoming,
-    biobroly,
-    majinbuusaga,
-    fusionreborn,
-    wrathofthedragon,
-    battleofgods,
-    resurrectionf,
-    universe6vs7,
-    copyvegeta,
-    futuresaga,
-    tournamentofpower,
-    superbroly
-)
+let fullList = {}
+
+fullList['Dragon Ball'] = dbsaga
+fullList['Dragon Ball: The Path to Power'] = pathtopower
+fullList['Dragon Ball Z: The Movie - Dead Zone'] = deadzone
+fullList['Saiyan Saga'] = saiyansaga
+fullList["Dragon Ball Z: The Movie - The World's Strongest"] = theworldsstrongest
+fullList['Dragon Ball Z: The Decisive Battle for the Whole Earth'] = thetreeofmight
+fullList['Dragon Ball Z: Super Saiyan Son Goku'] = lordslug
+fullList['Planet Namek Saga'] = planetnameksaga
+fullList['Dragon Ball Z: A Lonesome, Final Battle - The Father of Z Warrior Kakarot, who Challenged Freeza'] = bardock
+fullList['Dragon Ball Z: The Outstanding Strongest vs. Strongest'] = coolersrevenge
+fullList['Dragon Ball Z: Clash!! 10 Billion Power Warriors'] = returnofcooler
+fullList['Androids Saga'] = androidsaga
+fullList['Dragon Ball Z: Extreme Battle!! Three Great Super Saiyans'] = superandroid13
+fullList['Dragon Ball Z: Defiance in the Face of Despair!! The Remaining Super-Warriors: Gohan and Trunks'] = historyoftrunks
+fullList['Dragon Ball Z: Burn!! Hot Battle - Fierce Battle - Super Fierce Battle'] = lssjbroly
+fullList['Cell Saga'] = cellsaga
+fullList['Trunks of the Future Timeline'] = trunksfuture
+fullList['Dragon Ball Z Gaiden: Saiya-jin Zetsumetsu Keikaku'] = exterminationplan
+fullList['Dragon Ball Z: The Last Minute of the Galaxy!! A Super Incredible Guy'] = bojackunbound
+fullList['Other World Saga'] = otherworld
+fullList['Great Saiyaman Saga'] = greatsaiyaman
+fullList["Dragon Ball Z: Two Dangerous People! Super Warriors Can't Sleep"] = brolysecondcoming
+fullList["Dragon Ball Z Defeat the Super Warrior!! I'll Be The Winner"] = biobroly
+fullList['Majin Buu Saga'] = majinbuusaga
+fullList['Dragon Ball Z: Resurrection Fusion!! Goku and Vegeta'] = fusionreborn
+fullList["Dragon Ball Z: Dragon Fist Explosion!! Who Will Do It If Goku Doesn't Do It?"] = wrathofthedragon
+fullList['Dragon Ball Z: Battle of Gods'] = battleofgods
+fullList["Dragon Ball Z: Resurrection 'F'"] = resurrectionf
+fullList['Universe 6 Saga'] = universe6vs7
+fullList['Copy-Vegeta Saga'] = copyvegeta
+fullList['Future Saga'] = futuresaga
+fullList['Universe Survival Saga'] = tournamentofpower
+fullList['Dragon Ball Super: Broly'] = superbroly
 
 export default fullList
