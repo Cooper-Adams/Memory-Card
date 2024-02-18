@@ -1,24 +1,20 @@
-import React, { useEffect, useState } from 'react'
 import './styles/App.css'
-import Header from './components/header'
-import Game from './components/game'
+import ChooseMode from './components/ChooseMode'
+import Game from './components/Game'
 import GameOver from './components/GameOver'
 import GameWin from './components/GameWin'
+import Header from './components/Header'
+import React, { useEffect, useState } from 'react'
 
 const App = (props) => {
-    const [score, setScore] = useState(0)
-    const [highScore, setHighScore] = useState(0)
     const [gameOver, setGameOver] = useState(false)
+    const [highScore, setHighScore] = useState(0)
+    const [mode, setMode] = useState('')
+    const [sagaName, setSagaName] = useState('')
+    const [score, setScore] = useState(0)
 
-    /* Increments the current score */
-    const updateScore = () => { setScore(score + 1) }
-
-    /* Increments the high score once the first point is scored or if the current score surpasses the highest score */
-    const updateHighScore = () => {
-        if (highScore === 0 || score > highScore) {
-            setHighScore(score)
-        }
-    }
+    /* Changes the game mode */
+    const changeMode = (newMode) => { setMode(newMode) }
 
     /* Ends the game state */
     const gameFinished = () => { 
@@ -34,35 +30,49 @@ const App = (props) => {
 
     /* Resets the game completely */
     const resetGameWin = () => {
-        setScore(0)
-        setHighScore(0)
+        changeMode('')
         setGameOver(false)
+        setHighScore(0)
+        setScore(0)
     }
+
+    /* Updates the high score */
+    const updateHighScore = () => { if (highScore < score) { setHighScore(score) } }
+
+    /* Updates the current score */
+    const updateScore = () => { setScore(score + 1) }
 
     /* Effect is used to update the high score, which is dependent on the current score changing */
     useEffect(() => {
         updateHighScore()
     }, [score])
 
-    return (
-        <div className='react-app'>
-            <Header 
-                score={score}
-                highScore={highScore}
-            />
-            
-            {!gameOver && highScore < 51 && (
-                <Game
-                    updateScore={updateScore}
-                    setGameOver={gameFinished}
+    if (mode == '') { 
+        return ( <ChooseMode changeMode={changeMode}/> ) 
+    } else {
+        return (
+            <div className='react-app'>
+                <Header
+                    highScore={highScore}
+                    sagaName={sagaName}
+                    score={score}
                 />
-            )}
-
-            {highScore === 51 && <GameWin resetGame={resetGameWin}/>}
-
-            {gameOver && <GameOver resetGame={resetGame} highScore={highScore} />}
-        </div>
-    )
+                
+                {!gameOver && highScore < 131 && (
+                    <Game
+                        mode={mode}
+                        setGameOver={gameFinished}
+                        setSagaName={setSagaName}
+                        updateScore={updateScore}
+                    />
+                )}
+    
+                {highScore === 131 && <GameWin resetGame={resetGameWin}/>}
+    
+                {gameOver && <GameOver resetGame={resetGame} highScore={highScore} />}
+            </div>
+        )
+    }
 }
 
 export default App
