@@ -14,10 +14,19 @@ const Game = (props) => {
     const [stage, setStage] = useState(0)
 
     /* Grabs the next array of characters */
-    if (props.mode == 'full') { charList = fullList[sagaList[level]] }
-    else if (props.mode == 'z') { charList = fullList[zList[level]] }
-    else if (props.mode == 'super') { charList = fullList[superList[level]] }
-    else if (props.mode == 'movies') { charList = fullList[movieList[level]] }
+    if (props.mode == 'full') { 
+        charList = fullList[sagaList[level]]
+        props.setSagaName(sagaList[level])
+    } else if (props.mode == 'z') { 
+        charList = fullList[zList[level]]
+        props.setSagaName(zList[level])
+    } else if (props.mode == 'super') { 
+        charList = fullList[superList[level]] 
+        props.setSagaName(superList[level])
+    } else if (props.mode == 'movies') { 
+        charList = fullList[movieList[level]]
+        props.setSagaName(movieList[level])
+    }
 
     /* Updates the record of cards that have been clicked */
     const updateClickedCards = (card) => { setClickedCards([...clickedCards, card]) }
