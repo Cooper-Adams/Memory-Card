@@ -48,7 +48,7 @@ const futuresaga = [
             id: nanoid(),
             name: 'Goku Black',
             title: 'Warning From the Future',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1008600/1008600.png',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1014260/1014260.png',
             type: 'str',
             rarity: 'ssr'
         },
