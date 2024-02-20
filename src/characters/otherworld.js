@@ -6,7 +6,7 @@ const otherworld = [
             id: nanoid(),
             name: 'Super Saiyan Goku (Angel) (Super Kaioken)',
             title: 'Burning to the Last',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1010660/1010660.pngg',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1010660/1010660.png',
             type: 'sphy',
             rarity: 'ur'
         },

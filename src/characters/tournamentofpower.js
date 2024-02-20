@@ -210,7 +210,7 @@ const tournamentofpower = [
             id: nanoid(),
             name: 'Darcoli',
             title: 'Mystical Talisman User',
-            img: 'https://static.wikia.nocookie.net/dbz-dokkanbattle/images/a/af/Card_1021590_artwork.png/revision/latest/scale-to-width-down/250?cb=20210208104500',
+            img: 'src/assets/Darcoli.png',
             type: 'agl',
             rarity: 'ssr'
         },
@@ -218,7 +218,7 @@ const tournamentofpower = [
             id: nanoid(),
             name: 'Ganos (Transformation)',
             title: 'Up and Coming Foe',
-            img: 'https://static.wikia.nocookie.net/dbz-dokkanbattle/images/4/4a/Card_1013490_artwork.png/revision/latest/scale-to-width-down/250?cb=20210208104326',
+            img: 'src/assets/Ganos.png',
             type: 'int',
             rarity: 'ssr'
         },
@@ -320,7 +320,7 @@ const tournamentofpower = [
             id: nanoid(),
             name: 'Monna (Giant Ball)',
             title: 'Extreme Rolling Technique',
-            img: 'https://static.wikia.nocookie.net/dbz-dokkanbattle/images/c/c3/Card_4013520_artwork.png/revision/latest/scale-to-width-down/250?cb=20180315234605',
+            img: 'src/assets/Monna.png',
             type: 'teq',
             rarity: 'sr'
         },
@@ -506,7 +506,7 @@ const tournamentofpower = [
             id: nanoid(),
             name: 'Anilasa',
             title: "Universe 3's Last Resort",
-            img: 'https://static.wikia.nocookie.net/dbz-dokkanbattle/images/5/56/Card_1013990_artwork.png/revision/latest/scale-to-width-down/250?cb=20180430084006',
+            img: 'src/assets/Anilasa.png',
             type: 'phy',
             rarity: 'ssr'
         }

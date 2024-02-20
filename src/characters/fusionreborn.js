@@ -29,9 +29,9 @@ const fusionreborn = [
         {
             id: nanoid(),
             name: 'Super Saiyan Vegeta (Angel)',
-            title: 'Return from the Dark',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1005080/1005080.png',
-            type: 'sagl',
+            title: 'Necessary Revival',
+            img: 'src/assets/SSJVegeta.png',
+            type: 'agl',
             rarity: 'ssr'
         }
     ],

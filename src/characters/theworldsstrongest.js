@@ -20,11 +20,11 @@ const theworldsstrongest = [
         },
         {
             id: nanoid(),
-            name: 'Gohan (Kid)',
-            title: 'Exploding Rage',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1000870/1000870.png',
-            type: 'phy',
-            rarity: 'sr'
+            name: 'Dr. Kochin',
+            title: 'Assistant to the Evil Doctor',
+            img: 'src/assets/DrKochin.png',
+            type: 'int',
+            rarity: 'ssr'
         },
         {
             id: nanoid(),

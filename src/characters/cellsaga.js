@@ -97,9 +97,9 @@ const cellsaga = [
         {
             id: nanoid(),
             name: 'Cell (Perfect Form)',
-            title: 'Onset of a Hellish Fight',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1017880/1017880.png',
-            type: 'int',
+            title: 'Perfected Monster',
+            img: 'src/assets/CellPerfect.png',
+            type: 'agl',
             rarity: 'ssr'
         }
     ],

@@ -30,7 +30,7 @@ const battleofgods = [
             id: nanoid(),
             name: 'King Kai',
             title: 'King of the North Worlds',
-            img: 'https://static.wikia.nocookie.net/dbz-dokkanbattle/images/9/9e/Card_1007580_artwork.png/revision/latest/scale-to-width-down/250?cb=20160828144926',
+            img: 'src/assets/North_Kai.png',
             type: 'phy',
             rarity: 'ssr'
         }

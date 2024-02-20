@@ -54,11 +54,11 @@ const biobroly = [
         },
         {
             id: nanoid(),
-            name: 'Android #18',
-            title: 'Clever Tactics',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1008070/1008070.png',
-            type: 'sstr',
-            rarity: 'ur'
+            name: 'Bio-Broly (Giant Form)',
+            title: 'Saiyan-Like Monstrosity',
+            img: 'src/assets/Bio_Broly.png',
+            type: 'str',
+            rarity: 'ssr'
         },
         {
             id: nanoid(),

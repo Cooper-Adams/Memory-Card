@@ -141,10 +141,10 @@ const futuresaga = [
         {
             id: nanoid(),
             name: 'Goku Black & Zamasu',
-            title: 'Distorted Justice',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1011130/1011130.png',
-            type: 'eteq',
-            rarity: 'ur'
+            title: 'Wickedly Divine Retribution',
+            img: 'src/assets/GBandZamasu.png',
+            type: 'agl',
+            rarity: 'ssr'
         },
         {
             id: nanoid(),

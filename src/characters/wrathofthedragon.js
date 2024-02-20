@@ -30,7 +30,7 @@ const wrathofthedragon = [
             id: nanoid(),
             name: 'Hirudegarn (Lower Half)',
             title: 'Half of the Monster',
-            img: 'https://static.wikia.nocookie.net/dbz-dokkanbattle/images/5/5d/Card_1012430_artwork.png/revision/latest/scale-to-width-down/250?cb=20200520095121',
+            img: 'src/assets/Hirudegarn.png',
             type: 'phy',
             rarity: 'ssr'
         }

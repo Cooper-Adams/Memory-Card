@@ -22,7 +22,7 @@ const superbroly = [
             id: nanoid(),
             name: 'Vegeta',
             title: 'Training to Combat Freeza',
-            img: 'https://static.wikia.nocookie.net/dbz-dokkanbattle/images/2/21/Card_1019110_artwork.png/revision/latest/scale-to-width-down/250?cb=20200519082449',
+            img: 'src/assets/Vegeta.png',
             type: 'phy',
             rarity: 'ssr'
         },
@@ -30,7 +30,7 @@ const superbroly = [
             id: nanoid(),
             name: 'Goku',
             title: 'Training to Become the Strongest',
-            img: 'https://static.wikia.nocookie.net/dbz-dokkanbattle/images/a/a5/Card_1019120_artwork.png/revision/latest/scale-to-width-down/250?cb=20200519082212',
+            img: 'src/assets/Goku.png',
             type: 'str',
             rarity: 'ssr'
         }
