@@ -3,11 +3,11 @@ import React from 'react'
 const Header = (props) => {
     return (
         <header className='header'>
-            <h2 className='h-title'>DOKKAN Memory Cards</h2>
-            <h2 className='h-saga-title'>{props.sagaName}</h2>
+            <h1 className='h-title'>DOKKAN Memory Cards</h1>
+            <h1 className='h-saga-title'>{props.sagaName}</h1>
             <div className='h-score-container'>
-                <h2 className='h-score'>SCORE: {props.score}</h2>
-                <h2 className='h-highscore'>HIGH SCORE: {props.highScore}</h2>
+                <h1 className='h-score'>SCORE: {props.score}</h1>
+                <h1 className='h-highscore'>HIGH SCORE: {props.highScore}</h1>
             </div>
         </header>
     )
