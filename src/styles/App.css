@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #222;
+    background-color: #303030;
 }
 
 .react-app {
@@ -38,11 +38,21 @@ body {
     height: 600px;
 }
 
+.saga-title {
+    text-align: center;
+}
+
 /* Header Styling */
 .header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 80px;
+}
+
+.h-saga-title {
+    width: 1000px;
+    text-align: center;
 }
 
 .h-score-container {
@@ -55,40 +65,83 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: .5rem;
+}
+
+/* Card Styling */
+.teq, .steq, .eteq {
+    background-color: #004f17;
+    border-color: #117721!important;
+}
+
+.agl, .sagl, .eagl {
+    background-color: #23127d;
+    border-color: #3315c6 !important;
+}
+
+.str, .sstr, .estr {
+    background-color: #711100;
+    border-color: #991c00 !important;
+}
+
+.phy, .sphy, .ephy {
+    background-color: #aa7500;
+    border-color: #e6b044 !important;
+}
+
+.int, .sint, .eint {
+    background-color: #660071;
+    border-color: #84048a !important;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
 }
 
 .card {
-    width: 20%;
+    width: fit-content;
     position: relative;
+    padding: .5rem 1rem;
+    border: 1px solid;
 }
 
 .card-img {
-    width: 100%;
+    width: fit-content;
 }
 
-.card-rarity, .card-type, .card-name, .card-title {
+.card-rarity, .card-type {
     position: absolute;
 }
 
 .card-type {
     width: 12%;
-    top: 13%;
-    left: 3%;
+    top: 15%;
+    left: 8%;
 }
 
 .card-rarity {
     width: 21%;
+    left: 5%;
+}
+
+.card-nt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid;
 }
 
 .card-name, .card-title {
-    transform: rotate(-90deg);
+    font-weight: bold;
     font-style: italic;
     color: white;
     text-shadow: -1px 1px 0 #000,
     1px 1px 0 #000,
     1px -1px 0 #000,
     -1px -1px 0 #000;
+    margin: 1rem;
 }
 
 .card-name {
@@ -97,9 +150,4 @@ body {
 
 .card-title {
     font-size: 18px;
-}
-
-.card-name {
-    top: 15%;
-    right: 0;
 }
