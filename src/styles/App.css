@@ -8,6 +8,8 @@
 
 body {
     background-color: #303030;
+    background-image: url('src/assets/background.png');
+    background-size: cover;
 }
 
 .react-app {
@@ -39,7 +41,12 @@ body {
 }
 
 .saga-title {
+    color: white;
     text-align: center;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 /* Header Styling */
@@ -71,7 +78,7 @@ body {
 /* Card Styling */
 .teq, .steq, .eteq {
     background-color: #004f17;
-    border-color: #117721!important;
+    border-color: #117721 !important;
 }
 
 .agl, .sagl, .eagl {
