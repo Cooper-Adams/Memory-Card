@@ -31,6 +31,7 @@ import copyvegeta from './copyvegeta'
 import futuresaga from './futuresaga'
 import tournamentofpower from './tournamentofpower'
 import superbroly from './superbroly'
+import superhero from './superhero'
 
 let fullList = {}
 
@@ -67,5 +68,6 @@ fullList['Copy-Vegeta Saga'] = copyvegeta
 fullList['Future Saga'] = futuresaga
 fullList['Universe Survival Saga'] = tournamentofpower
 fullList['Dragon Ball Super: Broly'] = superbroly
+fullList['Dragon Ball Super: Super Hero'] = superhero
 
 export default fullList
