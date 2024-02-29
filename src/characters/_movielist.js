@@ -1,7 +1,7 @@
 const movieList = [
     'Dragon Ball: The Path to Power',
-    'Dragon Ball Z the Movie: Dead Zone',
-    "Dragon Ball Z the Movie: The World's Strongest",
+    'Dragon Ball Z: The Movie - Dead Zone',
+    "Dragon Ball Z: The Movie - The World's Strongest",
     'Dragon Ball Z: The Decisive Battle for the Whole Earth',
     'Dragon Ball Z: Super Saiyan Son Goku',
     'Dragon Ball Z: The Outstanding Strongest vs. Strongest',
