@@ -14,18 +14,26 @@ const Game = (props) => {
     const [stage, setStage] = useState(0)
 
     /* Grabs the next array of characters */
-    if (props.mode == 'full') { 
+    if (props.mode == 'full') {
+        useEffect(() => {
+            props.setSagaName(sagaList[level])
+        })
         charList = fullList[sagaList[level]]
-        props.setSagaName(sagaList[level])
     } else if (props.mode == 'z') { 
+        useEffect(() => {
+            props.setSagaName(zList[level])
+        })
         charList = fullList[zList[level]]
-        props.setSagaName(zList[level])
-    } else if (props.mode == 'super') { 
+    } else if (props.mode == 'super') {
+        useEffect(() => {
+            props.setSagaName(superList[level])
+        })
         charList = fullList[superList[level]] 
-        props.setSagaName(superList[level])
-    } else if (props.mode == 'movies') { 
+    } else if (props.mode == 'movies') {
+        useEffect(() => {
+            props.setSagaName(movieList[level])
+        })
         charList = fullList[movieList[level]]
-        props.setSagaName(movieList[level])
     }
 
     /* Updates the record of cards that have been clicked */
@@ -35,10 +43,10 @@ const Game = (props) => {
     const eraseClickedCards = () => { setClickedCards([]) }
 
     /* Shuffles the card map with the Fisher-Yates algo */
-    for (let i = (charList[stage].length - 1); i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1))
-        charList[stage][i] = charList[stage].splice(j, 1, charList[stage][i])[0]
-    }
+    // for (let i = (charList[stage].length - 1); i > 0; i--) {
+    //     let j = Math.floor(Math.random() * (i + 1))
+    //     charList[stage][i] = charList[stage].splice(j, 1, charList[stage][i])[0]
+    // }
 
     /* Grabs the info for each character in the level */
     let charMap = charList[stage].map((card) => {

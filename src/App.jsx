@@ -4,13 +4,25 @@ import Game from './components/Game'
 import GameOver from './components/GameOver'
 import GameWin from './components/GameWin'
 import Header from './components/Header'
+import musicList from './assets/sounds/_musicList'
 import React, { useEffect, useState } from 'react'
+
+const player = new Audio()
+player.volume = .01
+
+player.addEventListener('canplay', () => {
+    player.play().catch(e => {
+        window.addEventListener('click', () => {
+            player.play()
+        }, { once: true })
+    })
+})
 
 const App = (props) => {
     const [gameOver, setGameOver] = useState(false)
     const [highScore, setHighScore] = useState(0)
     const [mode, setMode] = useState('')
-    const [sagaName, setSagaName] = useState('')
+    const [sagaName, setSagaName] = useState('Home')
     const [score, setScore] = useState(0)
 
     /* Changes the game mode */
@@ -47,7 +59,11 @@ const App = (props) => {
         updateHighScore()
     }, [score])
 
-    if (mode == '') { 
+    useEffect(() => {
+        player.src = musicList[sagaName]
+    }, [sagaName])
+
+    if (mode == '') {
         return ( <ChooseMode changeMode={changeMode}/> ) 
     } else {
         return (
