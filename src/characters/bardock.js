@@ -5,10 +5,10 @@ const bardock = [
         {
             id: nanoid(),
             name: 'Freeza (1st Form)',
-            title: 'Joy of Destruction',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1010040/1010040.png',
-            type: 'teq',
-            rarity: 'ssr'
+            title: 'Beautiful Last View',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1028570/1028570.png',
+            type: 'eagl',
+            rarity: 'ur'
         },
         {
             id: nanoid(),
@@ -28,9 +28,9 @@ const bardock = [
         },
         {
             id: nanoid(),
-            name: 'King Vegeta',
-            title: 'An Invasion Bet on Primacy',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1024030/1024030.png',
+            name: 'Dodoria',
+            title: 'Brutal Execution Sentence',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1028590/1028590.png',
             type: 'eint',
             rarity: 'ur'
         }
