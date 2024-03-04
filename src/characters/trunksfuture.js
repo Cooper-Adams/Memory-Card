@@ -47,10 +47,10 @@ const trunksfuture = [
         {
             id: nanoid(),
             name: 'Trunks (Teen) (Future)',
-            title: 'In the Name of True Peace',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1018140/1018140.png',
-            type: 'teq',
-            rarity: 'ssr'
+            title: 'The Result of Time Traveling',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1027250/1027250.png',
+            type: 'sint',
+            rarity: 'ur'
         },
         {
             id: nanoid(),
