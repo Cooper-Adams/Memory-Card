@@ -4,8 +4,12 @@ import Game from './components/Game'
 import GameOver from './components/GameOver'
 import GameWin from './components/GameWin'
 import Header from './components/Header'
+import movieList from './characters/_movielist'
 import musicList from './assets/sounds/_musicList'
 import React, { useEffect, useState } from 'react'
+import sagaList from './characters/_sagalist'
+import superList from './characters/_dragonballsuper'
+import zList from './characters/_dragonballz'
 
 const player = new Audio()
 player.volume = .01
@@ -21,6 +25,7 @@ player.addEventListener('canplay', () => {
 const App = (props) => {
     const [gameOver, setGameOver] = useState(false)
     const [highScore, setHighScore] = useState(0)
+    const [level, setLevel] = useState(0)
     const [mode, setMode] = useState('')
     const [sagaName, setSagaName] = useState('Home')
     const [score, setScore] = useState(0)
@@ -54,16 +59,40 @@ const App = (props) => {
     /* Updates the current score */
     const updateScore = () => { setScore(score + 1) }
 
+    /* Effect is used to update the saga name, which is dependent on the user selected game mode */
+    useEffect(() => {
+        if (mode == 'full') {
+            setSagaName(sagaList[level])
+        } else if (mode == 'z') { 
+            setSagaName(zList[level])
+        } else if (mode == 'super') {
+            setSagaName(superList[level])
+        } else if (mode == 'movies') {
+            setSagaName(movieList[level])
+        }
+    }, [level])
+
+    /* Effect is used to update the music, which is dependent on the saga name changing */
+    useEffect(() => {
+        player.src = musicList[sagaName]
+    }, [sagaName])
+    
     /* Effect is used to update the high score, which is dependent on the current score changing */
     useEffect(() => {
         updateHighScore()
     }, [score])
 
-    useEffect(() => {
-        player.src = musicList[sagaName]
-    }, [sagaName])
+    if (sagaName == 'Home') {
+        if (mode == 'full') {
+            setSagaName(sagaList[level])
+        } else if (mode == 'z') { 
+            setSagaName(zList[level])
+        } else if (mode == 'super') {
+            setSagaName(superList[level])
+        } else if (mode == 'movies') {
+            setSagaName(movieList[level])
+        }
 
-    if (mode == '') {
         return ( <ChooseMode changeMode={changeMode}/> ) 
     } else {
         return (
@@ -74,11 +103,12 @@ const App = (props) => {
                     score={score}
                 />
                 
-                {!gameOver && highScore < 131 && (
+                {!gameOver && (
                     <Game
-                        mode={mode}
+                        level={level}
                         setGameOver={gameFinished}
-                        setSagaName={setSagaName}
+                        setLevel={setLevel}
+                        sagaName={sagaName}
                         updateScore={updateScore}
                     />
                 )}
