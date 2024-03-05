@@ -1,17 +1,17 @@
-import React from 'react'
+import React, { useState}  from 'react'
 
 const Card = (props) => {
+    const [clicked, setClicked] = useState(false)
+
     const handleClick = () => {
-        for (let i = 0; i < props.clickedCards.length; ++i) {
-            if (props.clickedCards[i].id === props.id) {
-                props.eraseClickedCards()
-                props.setGameOver()
-                return
-            }
+        if (clicked) {
+            props.setGameOver()
+        } else {
+            setClicked(true)
+            const card = {id: props.id}
+            props.updateClickedCards(card)
+            props.updateScore()
         }
-        
-        props.updateClickedCards({id: props.id})
-        props.updateScore()
     }
 
     return (
