@@ -166,3 +166,10 @@ body {
 .card-title {
     font-size: 18px;
 }
+
+.volume-switch {
+    position: absolute;
+    bottom: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+}
