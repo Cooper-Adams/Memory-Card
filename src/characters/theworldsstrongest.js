@@ -30,7 +30,7 @@ const theworldsstrongest = [
             id: nanoid(),
             name: 'Piccolo (Brainwashed)',
             title: 'Namekian Under Evil Influence',
-            img: 'https://static.wikia.nocookie.net/dbz-dokkanbattle/images/1/1a/Card_1006950_artwork.png/revision/latest?cb=20200520084727',
+            img: 'src/assets/brainwashedpiccolo.png',
             type: 'str',
             rarity: 'ssr'
         }
