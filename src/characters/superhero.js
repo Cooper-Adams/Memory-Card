@@ -174,9 +174,9 @@ const superhero = [
     [
         {
             id: nanoid(),
-            name: 'Piccolo (Power Awakening)',
+            name: 'Orange Piccolo (Giant Form)',
             title: 'Exploding Latent Power',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1025590/1025590.png',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/4025590/4025590.png',
             type: 'steq',
             rarity: 'lr'
         },
