@@ -1,9 +1,7 @@
 import React from 'react'
 
 const ChooseMode = (props) => {
-    const gameMode = (e) => {
-        props.changeMode(e.target.title)
-    }
+    const gameMode = (e) => { props.setMode(e.target.title) } 
 
     return (
         <div className='mode-container'>
