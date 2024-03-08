@@ -652,7 +652,7 @@ const tournamentofpower = [
             id: nanoid(),
             name: 'Goku (Ultra Instinct)',
             title: 'True Ultra Instinct',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1019990/1019990.png',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1020310/1020310.png',
             type: 'sagl',
             rarity: 'lr'
         },
