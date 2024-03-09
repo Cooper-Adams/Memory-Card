@@ -34,5 +34,9 @@ pictureList['Future Saga'] = 'src/assets/dbsfuturesaga.jpg'
 pictureList['Universe Survival Saga'] = 'src/assets/dbstop.jpg'
 pictureList['Dragon Ball Super: Broly'] = 'src/assets/dbsbroly.jpg'
 pictureList['Dragon Ball Super: Super Hero'] = 'src/assets/dbssuperhero.jpg'
+pictureList['Black Star Dragon Ball Saga'] = 'src/assets/blackstar.jpg'
+pictureList['Baby Saga'] = 'src/assets/gtbabysaga.jpg'
+pictureList['Super Android 17 Saga'] = 'src/assets/gtsuper17.jpg'
+pictureList['Shadow Dragon Saga'] = 'src/assets/shadowdragonsaga.jpg'
 
 export default pictureList
