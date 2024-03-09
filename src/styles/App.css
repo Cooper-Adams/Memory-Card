@@ -167,6 +167,50 @@ body {
     font-size: 18px;
 }
 
+/* Game Over screen */
+.game-over {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.go-inner-cont {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.go-message {
+    width: 250px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.go-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+}
+
+.go-button {
+    cursor: pointer;
+    transition: .25s all;
+}
+
+.go-button:hover {
+    transform: scale(1.5);
+}
+
+/* Volume Switch*/
 .volume-switch {
     position: absolute;
     bottom: 1rem;
