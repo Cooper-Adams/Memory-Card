@@ -29,9 +29,9 @@ const blackstardragonballs = [
         {
             id: nanoid(),
             name: 'Pan (GT)',
-            title: 'Impassioned Strike',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1005870/1005870.png',
-            type: 'teq',
+            title: 'Curiosity for the Unknown',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1002980/1002980.png',
+            type: 'int',
             rarity: 'sr'
         }
     ],
@@ -47,10 +47,10 @@ const blackstardragonballs = [
         {
             id: nanoid(),
             name: 'Pan (GT)',
-            title: 'Curiosity for the Unknown',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1002980/1002980.png',
-            type: 'int',
-            rarity: 'sr'
+            title: 'Tomboy Troublemaker',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1011020/1011020.png',
+            type: 'agl',
+            rarity: 'ssr'
         },
         {
             id: nanoid(),
@@ -89,10 +89,10 @@ const blackstardragonballs = [
         {
             id: nanoid(),
             name: 'Goku (GT) & Pan (GT) & Trunks (GT)',
-            title: 'Endless Adventure',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1016370/1016370.png',
-            type: 'sint',
-            rarity: 'lr'
+            title: 'A New Adventure Unfolds',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1016350/1016350.png',
+            type: 'int',
+            rarity: 'ssr'
         },
         {
             id: nanoid(),
