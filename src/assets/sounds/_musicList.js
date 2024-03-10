@@ -36,7 +36,7 @@ import superhero from './LRBeastGohan.webm'
 import blackstar from './PHYSSJGoku.webm'
 import superandroid17 from './STRSuper17.webm'
 import gtduostandby from './LRGTDuoStandby.webm'
-import babysaga from '../../characters/babysaga'
+import babysaga from './LRIntSSJ4Goku.webm'
 
 let musicList = {}
 
