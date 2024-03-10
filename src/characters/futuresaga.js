@@ -260,7 +260,7 @@ const futuresaga = [
             id: nanoid(),
             name: 'Super Saiyan God SS Vegetto',
             title: 'All or Nothing',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1011680/1011680.png',
+            img: 'https://i.pinimg.com/originals/d5/ac/e2/d5ace2678e3d140bfd3cef938fa28381.gif',
             type: 'sstr',
             rarity: 'lr'
         },
