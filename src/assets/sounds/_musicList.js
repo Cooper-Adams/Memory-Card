@@ -33,6 +33,10 @@ import futuresaga from './LRTeqVegito.webm'
 import tournamentofpower from './INTUiGoku.webm'
 import superbroly from './LRPhyGogeta.webm'
 import superhero from './LRBeastGohan.webm'
+import blackstar from './PHYSSJGoku.webm'
+import superandroid17 from './STRSuper17.webm'
+import gtduostandby from './LRGTDuoStandby.webm'
+import babysaga from '../../characters/babysaga'
 
 let musicList = {}
 
@@ -71,5 +75,9 @@ musicList['Future Saga'] = futuresaga
 musicList['Universe Survival Saga'] = tournamentofpower
 musicList['Dragon Ball Super: Broly'] = superbroly
 musicList['Dragon Ball Super: Super Hero'] = superhero
+musicList['Black Star Dragon Ball Saga'] = blackstar
+musicList['Baby Saga'] = babysaga
+musicList['Super Android 17 Saga'] = superandroid17
+musicList['Shadow Dragon Saga'] = gtduostandby
 
 export default musicList
