@@ -2,6 +2,7 @@ import './styles/App.css'
 import ChooseMode from './components/ChooseMode'
 import Game from './components/Game'
 import GameOver from './components/GameOver'
+import gtList from './characters/_dragonballgt'
 import Header from './components/Header'
 import movieList from './characters/_movielist'
 import musicList from './assets/sounds/_musicList'
@@ -70,6 +71,8 @@ const App = (props) => {
             setSagaName(zList[level])
         } else if (mode == 'super') {
             setSagaName(superList[level])
+        } else if (mode == 'gt') {
+            setSagaName(gtList[level])
         } else if (mode == 'movies') {
             setSagaName(movieList[level])
         }
@@ -88,10 +91,10 @@ const App = (props) => {
             if (dbzHS < score) { setDBZHS(score) }
         } else if (mode == 'super') {
             if (dbsHS < score) { setDBSHS(score) }
-        } else if (mode == 'movies') {
-            if (dbmHS < score) { setDBMHS(score) }
         } else if (mode == 'gt') {
             if (dbgtHS < score) { setDBGTHS(score) }
+        } else if (mode == 'movies') {
+            if (dbmHS < score) { setDBMHS(score) }
         }
 
         if (score == scoreList[mode]) { setGameOver(true) }
