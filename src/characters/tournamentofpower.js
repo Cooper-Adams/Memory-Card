@@ -40,7 +40,7 @@ const tournamentofpower = [
             id: nanoid(),
             name: 'Bergamo (Giant Form)',
             title: 'Limitless Power',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1018800/1018800.png',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1011580/1011580.png',
             type: 'phy',
             rarity: 'ssr'
         },
