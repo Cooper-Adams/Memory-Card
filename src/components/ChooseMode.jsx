@@ -22,6 +22,11 @@ const ChooseMode = (props) => {
                 </div>
 
                 <div className='modal-box'>
+                    <img onClick={gameMode} className='modal-img' title='gt' src='src/assets/dragonballgt.webp' alt='Sagas from Dragon Ball GT'/>
+                    <h1 className='saga-title'>Dragon Ball GT Sagas</h1>
+                </div>
+
+                <div className='modal-box'>
                     <img onClick={gameMode} className='modal-img' title='movies' src='src/assets/Movies.png' alt='Sagas from Dragon Ball Z Movies'/>
                     <h1 className='saga-title'>Dragon Ball Movie Sagas</h1>
                 </div>
