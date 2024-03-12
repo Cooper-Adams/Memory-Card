@@ -34,6 +34,10 @@ const sagaList = [
     'Dragon Ball Super: Broly',
     'Dragon Ball Super: Super Hero',
     'Peaceful World Saga',
+    'Black Star Dragon Ball Saga',
+    'Baby Saga',
+    'Super Android 17 Saga',
+    'Shadow Dragon Saga'
 ]
 
 export default sagaList
