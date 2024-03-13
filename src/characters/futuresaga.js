@@ -142,7 +142,7 @@ const futuresaga = [
             id: nanoid(),
             name: 'Goku Black & Zamasu',
             title: 'Wickedly Divine Retribution',
-            img: 'src/assets/GBandZamasu.png',
+            img: '/GBandZamasu.png',
             type: 'agl',
             rarity: 'ssr'
         },

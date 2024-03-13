@@ -98,7 +98,7 @@ const cellsaga = [
             id: nanoid(),
             name: 'Cell (Perfect Form)',
             title: 'Perfected Monster',
-            img: 'src/assets/CellPerfect.png',
+            img: '/CellPerfect.png',
             type: 'agl',
             rarity: 'ssr'
         }

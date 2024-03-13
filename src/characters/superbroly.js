@@ -22,7 +22,7 @@ const superbroly = [
             id: nanoid(),
             name: 'Vegeta',
             title: 'Training to Combat Freeza',
-            img: 'src/assets/Vegeta.png',
+            img: '/Vegeta.png',
             type: 'phy',
             rarity: 'ssr'
         },
@@ -30,7 +30,7 @@ const superbroly = [
             id: nanoid(),
             name: 'Goku',
             title: 'Training to Become the Strongest',
-            img: 'src/assets/Goku.png',
+            img: '/Goku.png',
             type: 'str',
             rarity: 'ssr'
         }
