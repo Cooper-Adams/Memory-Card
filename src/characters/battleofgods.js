@@ -30,7 +30,7 @@ const battleofgods = [
             id: nanoid(),
             name: 'King Kai',
             title: 'King of the North Worlds',
-            img: '/North_Kai.png',
+            img: 'North_Kai.png',
             type: 'phy',
             rarity: 'ssr'
         }

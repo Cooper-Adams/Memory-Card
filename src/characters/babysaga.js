@@ -6,7 +6,7 @@ const babysaga = [
             id: nanoid(),
             name: 'Super Sigma 3',
             title: 'Mechanical Fusion',
-            img: '/supersigma3.png',
+            img: 'supersigma3.png',
             type: 'int',
             rarity: 'sr'
         },
@@ -74,7 +74,7 @@ const babysaga = [
             id: nanoid(),
             name: 'Baby (Youth Form)',
             title: 'Wicked Tuffle',
-            img: '/babyyouth.png',
+            img: 'babyyouth.png',
             type: 'int',
             rarity: 'ssr'
         },
@@ -82,7 +82,7 @@ const babysaga = [
             id: nanoid(),
             name: 'Dr. Myuu',
             title: 'Artificial Life-Maker',
-            img: '/drmyuu.png',
+            img: 'drmyuu.png',
             type: 'agl',
             rarity: 'sr'
         },

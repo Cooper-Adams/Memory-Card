@@ -30,7 +30,7 @@ const wrathofthedragon = [
             id: nanoid(),
             name: 'Hirudegarn (Lower Half)',
             title: 'Half of the Monster',
-            img: '/Hirudegarn.png',
+            img: 'Hirudegarn.png',
             type: 'phy',
             rarity: 'ssr'
         }

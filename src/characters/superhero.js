@@ -166,7 +166,7 @@ const superhero = [
             id: nanoid(),
             name: 'Cell Max',
             title: 'Re-Engineered Monstrosity',
-            img: '/cellmax.png',
+            img: 'cellmax.png',
             type: 'str',
             rarity: 'ssr'
         }
@@ -184,7 +184,7 @@ const superhero = [
             id: nanoid(),
             name: 'Cell Max',
             title: 'Re-Engineered Monstrosity',
-            img: '/cellmax.png',
+            img: 'cellmax.png',
             type: 'str',
             rarity: 'ssr'
         },

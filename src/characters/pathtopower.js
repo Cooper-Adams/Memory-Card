@@ -30,7 +30,7 @@ const pathtopower = [
             id: nanoid(),
             name: 'Staff Officer Black',
             title: 'Commander of the Red Ribbon Army',
-            img: '/staffofficerblack.png',
+            img: 'staffofficerblack.png',
             type: 'int',
             rarity: 'ssr'
         }

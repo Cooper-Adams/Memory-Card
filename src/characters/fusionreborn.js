@@ -30,7 +30,7 @@ const fusionreborn = [
             id: nanoid(),
             name: 'Super Saiyan Vegeta (Angel)',
             title: 'Necessary Revival',
-            img: '/SSJVegeta.png',
+            img: 'SSJVegeta.png',
             type: 'agl',
             rarity: 'ssr'
         }

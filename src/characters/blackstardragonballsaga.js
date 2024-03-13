@@ -14,7 +14,7 @@ const blackstardragonballs = [
             id: nanoid(),
             name: 'Goku (GT)',
             title: '5 Years of Training',
-            img: '/gtgoku.png',
+            img: 'gtgoku.png',
             type: 'agl',
             rarity: 'ssr'
         },
@@ -64,7 +64,7 @@ const blackstardragonballs = [
             id: nanoid(),
             name: 'Ledgic',
             title: 'Formidable Foe',
-            img: '/ledgic.png',
+            img: 'ledgic.png',
             type: 'agl',
             rarity: 'r'
         }
@@ -74,7 +74,7 @@ const blackstardragonballs = [
             id: nanoid(),
             name: 'Luud',
             title: "Dr Myuu's Machine Mutant",
-            img: '/Luud.png',
+            img: 'Luud.png',
             type: 'str',
             rarity: 'sr'
         },
@@ -82,7 +82,7 @@ const blackstardragonballs = [
             id: nanoid(),
             name: 'Full Power Luud',
             title: "Dr Myuu's Destroyer",
-            img: '/FPLuud.png',
+            img: 'FPLuud.png',
             type: 'str',
             rarity: 'ssr'
         },

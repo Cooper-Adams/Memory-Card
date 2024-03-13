@@ -22,7 +22,7 @@ const theworldsstrongest = [
             id: nanoid(),
             name: 'Dr. Kochin',
             title: 'Assistant to the Evil Doctor',
-            img: '/DrKochin.png',
+            img: 'DrKochin.png',
             type: 'int',
             rarity: 'ssr'
         },
@@ -30,7 +30,7 @@ const theworldsstrongest = [
             id: nanoid(),
             name: 'Piccolo (Brainwashed)',
             title: 'Namekian Under Evil Influence',
-            img: '/brainwashedpiccolo.png',
+            img: 'brainwashedpiccolo.png',
             type: 'str',
             rarity: 'ssr'
         }

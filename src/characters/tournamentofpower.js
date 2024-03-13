@@ -210,7 +210,7 @@ const tournamentofpower = [
             id: nanoid(),
             name: 'Darcoli',
             title: 'Mystical Talisman User',
-            img: '/Darcoli.png',
+            img: 'Darcoli.png',
             type: 'agl',
             rarity: 'ssr'
         },
@@ -218,7 +218,7 @@ const tournamentofpower = [
             id: nanoid(),
             name: 'Ganos (Transformation)',
             title: 'Up and Coming Foe',
-            img: '/Ganos.png',
+            img: 'Ganos.png',
             type: 'int',
             rarity: 'ssr'
         },
@@ -320,7 +320,7 @@ const tournamentofpower = [
             id: nanoid(),
             name: 'Monna (Giant Ball)',
             title: 'Extreme Rolling Technique',
-            img: '/Monna.png',
+            img: 'Monna.png',
             type: 'teq',
             rarity: 'sr'
         },
@@ -506,7 +506,7 @@ const tournamentofpower = [
             id: nanoid(),
             name: 'Anilasa',
             title: "Universe 3's Last Resort",
-            img: '/Anilasa.png',
+            img: 'Anilasa.png',
             type: 'phy',
             rarity: 'ssr'
         }

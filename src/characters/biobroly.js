@@ -56,7 +56,7 @@ const biobroly = [
             id: nanoid(),
             name: 'Bio-Broly (Giant Form)',
             title: 'Saiyan-Like Monstrosity',
-            img: '/Bio_Broly.png',
+            img: 'Bio_Broly.png',
             type: 'str',
             rarity: 'ssr'
         },

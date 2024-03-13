@@ -116,7 +116,7 @@ const super17 = [
             id: nanoid(),
             name: 'Staff Officer Black',
             title: 'Commander of the Red Ribbon Army',
-            img: '/staffofficerblack.png',
+            img: 'staffofficerblack.png',
             type: 'int',
             rarity: 'ssr'
         },
@@ -124,7 +124,7 @@ const super17 = [
             id: nanoid(),
             name: 'General Blue',
             title: 'Old Foe Returned',
-            img: '/generalblue.png',
+            img: 'generalblue.png',
             type: 'agl',
             rarity: 'sr'
         },
@@ -132,7 +132,7 @@ const super17 = [
             id: nanoid(),
             name: 'Major Metallitron',
             title: 'Long Forgotten Foe',
-            img: '/metallitron.png',
+            img: 'metallitron.png',
             type: 'str',
             rarity: 'sr'
         }
