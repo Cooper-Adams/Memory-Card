@@ -32,6 +32,7 @@ import futuresaga from './futuresaga'
 import tournamentofpower from './tournamentofpower'
 import superbroly from './superbroly'
 import superhero from './superhero'
+import peacefulworld from './peacefulworld'
 import blackstar from './blackstardragonballsaga'
 import babysaga from './babysaga'
 import superandroid17 from './super17'
@@ -73,6 +74,7 @@ fullList['Future Saga'] = futuresaga
 fullList['Universe Survival Saga'] = tournamentofpower
 fullList['Dragon Ball Super: Broly'] = superbroly
 fullList['Dragon Ball Super: Super Hero'] = superhero
+fullList['Peaceful World Saga'] = peacefulworld
 fullList['Black Star Dragon Ball Saga'] = blackstar
 fullList['Baby Saga'] = babysaga
 fullList['Super Android 17 Saga'] = superandroid17
