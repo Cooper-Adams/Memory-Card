@@ -1,5 +1,7 @@
 # Dokkan Memory Cards
 
+[Live Preview Here](https://cooper-adams.github.io/Memory-Card/)
+
 ### Important Information
 
 The memory card game is a part of [The Odin Project's react curriculum](https://www.theodinproject.com/lessons/node-path-react-new-memory-card#project-solution).
@@ -7,8 +9,6 @@ The memory card game is a part of [The Odin Project's react curriculum](https://
 The guidelines for this project wanted us to pull images from an API, but like most other project submissions, I decided to freestyle. The images and music in this project come from the mobile game Dragon Ball Z: Dokkan Battle, and I do not own or claim to own any image or song used here. This is a personal project only for developing my skills, and I will not profit from the use of these assets. If you are part of Bandai or affiliated with the game, please contact me if this is an issue and I will remove it. If not, please support and play the official game in whichever app store you use. The background image originates from the game but was rendered by [June Reito](https://www.deviantart.com/junereito/art/DOKKAN-BATTLE-stylized-background-852509936) on DeviantArt.
 
 ### Game Information
-
-Check it out live here.
 
 In Dokkan Memory Cards, your goal is to advance through sagas by selecting unique cards in each round. There are 5 different game modes, with each having unique cards. If you click the same card twice, you lose! If you make it all the way to the end of a mode, you can then bask in your own glory or select a different mode to play.
 
