@@ -45,6 +45,7 @@ const App = (props) => {
 
     /* Resets the game, but not the high score */
     const resetGame = () => {
+        console.log('NO???')
         setLevel(0)
         setMode('')
         setSagaName('Home')
@@ -66,15 +67,15 @@ const App = (props) => {
     useEffect(() => {
         setModeScore(scoreList[mode])
         if (mode == 'full') {
-            setSagaName(sagaList[level])
+            if (level < sagaList.length) { setSagaName(sagaList[level]) } 
         } else if (mode == 'z') { 
-            setSagaName(zList[level])
+            if (level < zList.length) { setSagaName(zList[level]) } 
         } else if (mode == 'super') {
-            setSagaName(superList[level])
+            if (level < superList.length) { setSagaName(superList[level]) } 
         } else if (mode == 'gt') {
-            setSagaName(gtList[level])
+            if (level < gtList.length) { setSagaName(gtList[level]) } 
         } else if (mode == 'movies') {
-            setSagaName(movieList[level])
+            if (level < movieList.length) { setSagaName(movieList[level]) } 
         }
     }, [level, mode])
 
