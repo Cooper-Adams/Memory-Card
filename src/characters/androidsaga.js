@@ -80,10 +80,10 @@ const androidsaga = [
         },
         {
             id: nanoid(),
-            name: 'Piccolo',
-            title: 'All-Out Intensive Fire',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1024000/1024000.png',
-            type: 'steq',
+            name: 'Vegeta',
+            title: 'Awakening of the Prince',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1028490/1028490.png',
+            type: 'eteq',
             rarity: 'ur'
         },
         {
