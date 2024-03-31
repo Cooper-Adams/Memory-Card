@@ -21,9 +21,9 @@ const tournamentofpower = [
         {
             id: nanoid(),
             name: 'Toppo',
-            title: 'Warrior of Freedom',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1011590/1011590.png',
-            type: 'str',
+            title: 'Intimidation That Does Not Tolerate Evil',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1028670/1028670.png',
+            type: 'phy',
             rarity: 'ssr'
         },
         {
@@ -591,9 +591,9 @@ const tournamentofpower = [
         {
             id: nanoid(),
             name: 'Toppo (God of Destruction Mode)',
-            title: 'Power Beyond Right and Wrong',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1013880/1013880.png',
-            type: 'sstr',
+            title: 'Determination to Protect Universe 11',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/4028690/4028690.png',
+            type: 'sphy',
             rarity: 'ur'
         },
         {
