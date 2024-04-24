@@ -72,11 +72,11 @@ const nameksaga = [
     [
         {
             id: nanoid(),
-            name: 'Captain Ginyu',
-            title: 'First Big Job in Ages',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1023760/1023760.png',
-            type: 'agl',
-            rarity: 'ssr'
+            name: 'Captain Ginyu (Ginyu Force)',
+            title: 'Unprecedented Group of Strongmen',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1028720/1028720.png',
+            type: 'eint',
+            rarity: 'lr'
         },
         {
             id: nanoid(),
