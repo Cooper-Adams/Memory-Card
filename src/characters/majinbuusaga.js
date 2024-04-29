@@ -243,10 +243,10 @@ const majinbuusaga = [
         {
             id: nanoid(),
             name: 'Super Saiyan 3 Goku (Angel)',
-            title: 'Astounding Transformation',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1010260/1010260.png',
-            type: 'steq',
-            rarity: 'ur'
+            title: 'Resistance Against Unprecedented Terror',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1028780/1028780.png',
+            type: 'agl',
+            rarity: 'ssr'
         },
         {
             id: nanoid(),
@@ -258,11 +258,11 @@ const majinbuusaga = [
         },
         {
             id: nanoid(),
-            name: 'Babidi & Majin Buu (Good)',
-            title: 'Worldwide Terror',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1021010/1021010.png',
-            type: 'ephy',
-            rarity: 'lr'
+            name: 'Majin Buu (Good)',
+            title: 'World-Changing Majin',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1028800/1028800.png',
+            type: 'int',
+            rarity: 'ssr'
         },
         {
             id: nanoid(),
@@ -285,10 +285,10 @@ const majinbuusaga = [
         {
             id: nanoid(),
             name: 'Majin Buu (Pure Evil)',
-            title: 'Aggregate of Rage',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1006730/1006730.png',
-            type: 'ephy',
-            rarity: 'ssr'
+            title: 'The Dispelled Evil Heart',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1028850/1028850.png',
+            type: 'eteq',
+            rarity: 'ur'
         },
         {
             id: nanoid(),
