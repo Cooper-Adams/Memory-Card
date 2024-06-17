@@ -72,11 +72,11 @@ const resurrectionf = [
     [
         {
             id: nanoid(),
-            name: 'Master Roshi (Max Power)',
-            title: 'Mighty Battle',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1004830/1004830.png',
-            type: 'int',
-            rarity: 'sr'
+            name: 'Krillin',
+            title: "Earth's Leading Warrior",
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1029000/1029000.png',
+            type: 'sagl',
+            rarity: 'ur'
         },
         {
             id: nanoid(),
