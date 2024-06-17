@@ -165,10 +165,10 @@ const superhero = [
         {
             id: nanoid(),
             name: 'Cell Max',
-            title: 'Re-Engineered Monstrosity',
-            img: 'cellmax.png',
-            type: 'str',
-            rarity: 'ssr'
+            title: 'Monster Without Reason',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1028950/1028950.png',
+            type: 'estr',
+            rarity: 'ur'
         }
     ],
     [
@@ -183,10 +183,10 @@ const superhero = [
         {
             id: nanoid(),
             name: 'Cell Max',
-            title: 'Re-Engineered Monstrosity',
-            img: 'cellmax.png',
-            type: 'str',
-            rarity: 'ssr'
+            title: 'The Ultimate Weapon Bringing About Calamity and Destruction',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1028960/1028960.png',
+            type: 'estr',
+            rarity: 'lr'
         },
         {
             id: nanoid(),
