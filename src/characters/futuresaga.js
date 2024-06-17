@@ -72,10 +72,10 @@ const futuresaga = [
     [
         {
             id: nanoid(),
-            name: 'Trunks (Teen) (Future)',
-            title: 'The Duty of Humanity',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1015610/1015610.png',
-            type: 'sstr',
+            name: 'Super Saiyan 2 Trunks (Future)',
+            title: 'Battle to Defend the Dignity of Mankind',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1028980/1028980.png',
+            type: 'sagl',
             rarity: 'ur'
         },
         {
