@@ -319,10 +319,10 @@ const majinbuusaga = [
         {
             id: nanoid(),
             name: 'Ultimate Gohan',
-            title: 'Hidden Power Unleashed',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1011800/1011800.png',
-            type: 'sstr',
-            rarity: 'ur'
+            title: 'Magnificent Ultimate Battle',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1028890/1028890.png',
+            type: 'sagl',
+            rarity: 'lr'
         },
         {
             id: nanoid(),
