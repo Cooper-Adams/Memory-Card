@@ -17,8 +17,8 @@ const Card = (props) => {
     return (
         <div className='card-container'>
             <div className={props.type + ' card'} onClick={handleClick}>
-                <img draggable='false' className='card-rarity' src={'public/' + props.rarity + '.png'} />
-                <img draggable='false' className='card-type' src={'public/' + props.type + '.png'} />
+                <img draggable='false' className='card-rarity' src={props.rarity + '.png'} />
+                <img draggable='false' className='card-type' src={props.type + '.png'} />
                 <img draggable='false' className='card-img' src={props.img} />
             </div>
 
