@@ -183,10 +183,10 @@ const tournamentofpower = [
         {
             id: nanoid(),
             name: 'Hit',
-            title: 'Mysterious Pressure',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1015660/1015660.png',
-            type: 'teq',
-            rarity: 'ssr'
+            title: 'Mission For The Survival of Universe 6',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1029120/1029120.png',
+            type: 'ephy',
+            rarity: 'ur'
         },
         {
             id: nanoid(),
@@ -632,11 +632,11 @@ const tournamentofpower = [
         },
         {
             id: nanoid(),
-            name: 'Freeza (Final Form) (Angel)',
-            title: 'Evil Pride',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1020500/1020500.png',
-            type: 'ephy',
-            rarity: 'ur'
+            name: 'Goku (Ultra Instinct -Sign-)',
+            title: 'Limit-Breaking Godly Power',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1029050/1029050.png',
+            type: 'steq',
+            rarity: 'lr'
         },
         {
             id: nanoid(),
