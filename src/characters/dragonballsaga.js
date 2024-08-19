@@ -107,10 +107,10 @@ const dbsaga = [
         {
             id: nanoid(),
             name: 'Devilman',
-            title: 'Devilish Deception',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1002360/1002360.png',
-            type: 'agl',
-            rarity: 'sr'
+            title: 'The Terrifying Power of The Devil',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1029330/1029330.png',
+            type: 'estr',
+            rarity: 'ur'
         },
         {
             id: nanoid(),
