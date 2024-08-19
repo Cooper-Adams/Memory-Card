@@ -97,9 +97,9 @@ const tournamentofpower = [
         {
             id: nanoid(),
             name: 'Jiren',
-            title: 'Grey Warrior',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1012710/1012710.png',
-            type: 'teq',
+            title: 'Strength to Abandon Emotions',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1029070/1029070.png',
+            type: 'agl',
             rarity: 'ssr'
         }
     ],
@@ -447,10 +447,10 @@ const tournamentofpower = [
         {
             id: nanoid(),
             name: 'Saonel & Pirina',
-            title: 'In the Name of Survival',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1016920/1016920.png',
-            type: 'teq',
-            rarity: 'ssr'
+            title: 'The Life Entrusted To Us By Our Brothers',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1029280/1029280.png',
+            type: 'steq',
+            rarity: 'ur'
         },
         {
             id: nanoid(),
@@ -539,10 +539,10 @@ const tournamentofpower = [
         {
             id: nanoid(),
             name: 'Jiren',
-            title: 'Invincible Legend of Universe 11',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1013480/1013480.png',
-            type: 'str',
-            rarity: 'ssr'
+            title: 'A State of Isolation',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1029080/1029080.png',
+            type: 'sagl',
+            rarity: 'ur'
         }
     ],
     [
@@ -607,10 +607,10 @@ const tournamentofpower = [
         {
             id: nanoid(),
             name: 'Jiren',
-            title: 'Invincible Legend of Universe 11',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1013480/1013480.png',
-            type: 'str',
-            rarity: 'ssr'
+            title: 'Absolute Power',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1013940/1013940.png',
+            type: 'sstr',
+            rarity: 'ur'
         }
     ],
     [
@@ -641,10 +641,10 @@ const tournamentofpower = [
         {
             id: nanoid(),
             name: 'Jiren',
-            title: 'Absolute Power',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1013940/1013940.png',
-            type: 'sstr',
-            rarity: 'ur'
+            title: 'Power of an Isolated Iron Wall',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1029090/1029090.png',
+            type: 'sagl',
+            rarity: 'lr'
         }
     ],
     [
@@ -663,6 +663,40 @@ const tournamentofpower = [
             img: 'https://dokkaninfo.com/assets/japan/character/card/1019910/1019910.png',
             type: 'steq',
             rarity: 'lr'
+        },
+        {
+            id: nanoid(),
+            name: 'Jiren (Full Power)',
+            title: 'Power of an Isolated Iron Wall',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/4029110/4029110.png',
+            type: 'sagl',
+            rarity: 'lr'
+        },
+        {
+            id: nanoid(),
+            name: 'Goku (Ultra Instinct)',
+            title: 'Limit-Breaking Godly Power',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/4029060/4029060.png',
+            type: 'steq',
+            rarity: 'lr'
+        }
+    ],
+    [
+        {
+            id: nanoid(),
+            name: 'Goku & Freeza (Final Form) (Angel)',
+            title: 'The Ultimate Final Combo',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1014950/1014950.png',
+            type: 'teq',
+            rarity: 'ssr'
+        },
+        {
+            id: nanoid(),
+            name: 'Jiren (Full Power)',
+            title: 'Heated Final Phase',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1014700/1014700.png',
+            type: 'teq',
+            rarity: 'ssr'
         },
         {
             id: nanoid(),
