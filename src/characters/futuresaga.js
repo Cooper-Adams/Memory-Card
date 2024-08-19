@@ -199,9 +199,9 @@ const futuresaga = [
         {
             id: nanoid(),
             name: 'Goku Black (Super Saiyan Rosé)',
-            title: 'Furious Punishment',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1012760/1012760.png',
-            type: 'estr',
+            title: 'Mastery of the Power of Rage',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/4028290/4028290.png',
+            type: 'ephy',
             rarity: 'ur'
         }
     ],
