@@ -19,7 +19,8 @@ const Card = (props) => {
             <div className={props.type + ' card'} onClick={handleClick}>
                 <img draggable='false' className='card-rarity' src={props.rarity + (props.rarity == 'lr' ? '.gif' : '.png')} />
                 <img draggable='false' className='card-type' src={props.type + '.png'} />
-                <img draggable='false' className='card-img' src={props.img} />
+                <img draggable='false' className='card-img' src={props.img} style={{display: (props.img != 'lrgif' ? 'block' : 'none')}}/>
+                <video autoPlay disablePictureInPicture disableRemotePlayback loop muted playsInline poster='' src={props.lr} style={{display: (props.img == 'lrgif' ? 'block' : 'none')}}></video>
             </div>
 
             <div className={props.type + ' card-nt'}>
