@@ -28,6 +28,7 @@ const Game = (props) => {
                 img={card.img}
                 type={card.type}
                 rarity={card.rarity}
+                lr={card.lr}
                 updateClickedCards={updateClickedCards}
                 updateScore={props.updateScore}
                 setGameOver={props.setGameOver}
