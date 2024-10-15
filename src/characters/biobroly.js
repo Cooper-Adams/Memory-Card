@@ -63,10 +63,11 @@ const biobroly = [
         {
             id: nanoid(),
             name: 'Bio-Broly',
-            title: 'The Return of The Demon',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1005440/1005440.png',
-            type: 'eteq',
-            rarity: 'ur'
+            title: 'Terrifying Biotechnology',
+            img: 'lrgif',
+            type: 'ephy',
+            rarity: 'lr',
+            lr: 'lrbiobroly.webm'
         }
     ]
 ]
