@@ -5,10 +5,10 @@ const nameksaga = [
         {
             id: nanoid(),
             name: 'Cui',
-            title: 'Imminent Showdown',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1001110/1001110.png',
-            type: 'str',
-            rarity: 'sr'
+            title: 'Elimination of the Traitor',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1029590/1029590.png',
+            type: 'eint',
+            rarity: 'ur'
         },
         {
             id: nanoid(),
@@ -29,10 +29,10 @@ const nameksaga = [
         {
             id: nanoid(),
             name: 'Vegeta',
-            title: 'Advancing Ambition',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1010220/1010220.png',
-            type: 'int',
-            rarity: 'ssr'
+            title: 'Decisive Strike of Rebellion',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1029570/1029570.png',
+            type: 'eagl',
+            rarity: 'ur'
         }
     ],
     [
@@ -164,21 +164,22 @@ const nameksaga = [
         },
         {
             id: nanoid(),
-            name: 'Vegeta',
-            title: 'Strategy to Defeat the Emperor',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/4022890/4022890.png',
-            type: 'eint',
+            name: 'Freeza (2nd Form)',
+            title: 'Storm of Terror',
+            img: 'https://dokkaninfo.com/assets/japan/character/card/1017160/1017160.png',
+            type: 'ephy',
             rarity: 'ur'
         }
     ],
     [
         {
             id: nanoid(),
-            name: 'Freeza (2nd Form)',
-            title: 'Storm of Terror',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1017160/1017160.png',
-            type: 'ephy',
-            rarity: 'ur'
+            name: 'Gohan (Kid)/Piccolo',
+            title: 'Tide-Turning Super Power',
+            img: 'lrgif',
+            type: 'steq',
+            rarity: 'lr',
+            lr: 'lrgohanss.webm'
         },
         {
             id: nanoid(),
@@ -191,10 +192,11 @@ const nameksaga = [
         {
             id: nanoid(),
             name: 'Piccolo',
-            title: 'Battle as a Namekian',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/4014690/4014690.png',
-            type: 'sagl',
-            rarity: 'ur'
+            title: 'Tide-Turning Super Power',
+            img: 'lrgif',
+            type: 'steq',
+            rarity: 'lr',
+            lr: 'lrpiccoloss.webm'
         },
         {
             id: nanoid(),
