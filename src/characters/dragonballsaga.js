@@ -131,10 +131,11 @@ const dbsaga = [
         {
             id: nanoid(),
             name: 'Grandpa Gohan',
-            title: 'Masked Master',
-            img: 'https://dokkaninfo.com/assets/japan/character/card/1018000/1018000.png',
-            type: 'agl',
-            rarity: 'ssr'
+            title: 'Courteous Martial Artist',
+            img: 'lrgif',
+            type: 'steq',
+            rarity: 'lr',
+            lr: 'lrgrandpa.webm'
         },
     ],
     [
